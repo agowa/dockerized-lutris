@@ -1,4 +1,4 @@
-FROM archlinux/base:latest as lutris
+FROM archlinux/archlinux:base as lutris
 
 RUN \
   pacman -Syy --noconfirm && \
